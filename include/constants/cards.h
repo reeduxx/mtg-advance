@@ -1,0 +1,7 @@
+#ifndef CONSTANTS_CARDS_H
+#define CONSTANTS_CARDS_H
+
+#define CARD_NONE 							0
+#define CARD_ABANDONED_OUTPOST 				1
+
+#endif // CONSTANTS_CARDS_HCARDS_H

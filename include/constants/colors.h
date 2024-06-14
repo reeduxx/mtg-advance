@@ -1,0 +1,11 @@
+#ifndef CONSTANTS_COLORS_H
+#define CONSTANTS_COLORS_H
+
+#define COLOR_NONE 	0x00
+#define COLOR_GREEN 0x01
+#define COLOR_RED 	0x02
+#define COLOR_BLACK	0x04
+#define COLOR_BLUE	0x08
+#define COLOR_WHITE 0x10
+
+#endif // CONSTANTS_COLORS_H
