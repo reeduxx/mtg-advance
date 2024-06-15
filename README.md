@@ -6,6 +6,7 @@ The goal of this project is to bring Magic the Gathering to our beloved retro co
 
 # Progress
 ![Progress](https://progress-bar.dev/12/?title=Cards&suffix=/6244)
+
 ![Progress](https://progress-bar.dev/0/?title=Implemented)
 
 # Building
