@@ -1,5 +1,5 @@
-#ifndef TYPES_H
-#define TYPES_H
+#ifndef CONSTANTS_TYPES_H
+#define CONSTANTS_TYPES_H
 
 #define TYPE_NONE			0x00
 #define TYPE_CREATURE		0x01
@@ -9,4 +9,6 @@
 #define TYPE_INSTANT		0x10
 #define TYPE_SORCERY		0x20
 
-#endif // TYPES_H
+#define ENCODE_TYPES(a, b) (a | b)
+
+#endif // CONSTANTS_TYPES_H

@@ -2,6 +2,12 @@
 #define CARD_H
 
 #include <cstdint>
+#include "constants/supertypes.h"
+#include "constants/types.h"
+#include "constants/subtypes.h"
+#include "constants/colors.h"
+
+#define ENCODE_MANA_PIPS(white, blue, black, red, green) ((white << 12) | (blue << 9) | (black << 6) | (red << 3) | (green << 0))
 
 struct CardInfo {
 	char name[32];
